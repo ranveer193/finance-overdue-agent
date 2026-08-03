@@ -24,6 +24,13 @@ Built with **LangGraph** · **Mistral AI** · **SQLite** · **APScheduler** · *
 
 ---
 
+## 🚀 Deployment Status
+
+This project is currently deployed and running on Streamlit at the live demo URL above.
+The app includes invoice upload workflows, AI-generated follow-ups, audit trails, retry handling, and dashboard monitoring for finance teams.
+
+---
+
 ## 🎥 Project Demo Video
 
 Watch the complete end-to-end demonstration of the Finance Overdue Agent, including:
