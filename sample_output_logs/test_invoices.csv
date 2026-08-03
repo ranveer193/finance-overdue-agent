@@ -1,0 +1,21 @@
+client_name,recipient_email,invoice_number,amount,due_date
+Acme Technologies Pvt Ltd,accounts@acmetech.com,INV-2026-001,12500.0,2026-04-15
+Bright Solutions,finance@brightsolutions.in,INV-2026-002,8700.5,2026-04-25
+Nexus Retail,billing@nexusretail.com,INV-2026-003,45200.75,2026-03-30
+Orbit Logistics,payments@orbitlogistics.in,INV-2026-004,15999.99,2026-05-05
+Zenith Healthcare,accounts.payable@zenithhealthcare.com,INV-2026-005,22340.0,2026-04-10
+Orbit Logistics,payments@orbitlogistics.in,INV-2026-104,153200.75,2026-04-16
+Zenith Healthcare,accounts@zenithhealthcare.com,INV-2026-105,78000.0,2026-04-02
+Vertex Systems,ap@vertexsystems.com,INV-2026-106,33999.99,2026-05-18
+BluePeak Consulting,finance@bluepeakconsulting.com,INV-2026-107,64210.0,2026-05-12
+Delta Manufacturing,accounts@deltamfg.com,INV-2026-108,201500.0,2026-04-29
+Quantum Labs,payments@quantumlabs.com,INV-2026-109,88765.25,2026-04-22
+EverGreen Foods,accounts@evergreenfoods.com,INV-2026-110,15999.0,2026-04-13
+Skyline Infra,billing@skylineinfra.com,INV-2026-111,510000.0,2026-03-29
+Nova Education,finance@novaeducation.org,INV-2026-112,27450.0,2026-05-13
+Fusion Telecom,accounts@fusiontelecom.com,INV-2026-113,112340.4,2026-05-06
+Artemis Pharma,payments@artemispharma.com,INV-2026-114,66500.0,2026-04-19
+CloudMatrix,billing@cloudmatrix.io,INV-2026-115,45555.55,2026-05-01
+EcoBuild Projects,accounts@ecobuildprojects.com,INV-2026-116,98000.0,2026-04-07
+Metro Mobility,finance@metromobility.com,INV-2026-117,34999.0,2026-05-15
+Pulse Analytics,ap@pulseanalytics.ai,INV-2026-118,73500.0,2026-04-27
