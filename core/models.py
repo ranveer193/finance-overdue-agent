@@ -1,6 +1,7 @@
 from typing import TypedDict, Literal, Optional, Any, List, Dict
 from pydantic import BaseModel, Field, EmailStr
-from langchain_mistralai import ChatMistralAI
+from langchain_huggingface import HuggingFaceEndpoint,ChatHuggingFace
+from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 from core.prompts import EMAIL_PROMPT
 
@@ -76,7 +77,13 @@ class AgentState(TypedDict, total=False):
     send_error: str
     audit_log: dict[str, Any]
 
-model = ChatMistralAI(temperature=0.2)
+llm = HuggingFaceEndpoint(
+    repo_id="openai/gpt-oss-120b",
+    task="text-generation"
+)
+
+model1 = ChatHuggingFace(llm = llm)
+model = ChatGroq(model_name = "openai/gpt-oss-120b")
 email_agent = model.with_structured_output(EmailDraft)
 EMAIL_GENERATION_CHAIN = EMAIL_PROMPT | email_agent
 
